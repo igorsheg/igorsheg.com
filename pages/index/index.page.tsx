@@ -1,4 +1,5 @@
 import React from 'react'
+import Sidebar from '../../components/sidebar'
 import { Counter } from './Counter'
 
 export { Page }
@@ -12,6 +13,7 @@ function Page() {
         <li>Rendered to HTML.</li>
         <li>
           Interactive. <Counter />
+          <Sidebar />
         </li>
       </ul>
     </>
